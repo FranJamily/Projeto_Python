@@ -6,4 +6,7 @@ def index(request):
 
 def imagem(request):
     return render(request, 'galeria/imagem.html')
+
+def base(request):
+    return render(request, 'galeria/base.html')
 # Create your views here.
